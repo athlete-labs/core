@@ -1,0 +1,12 @@
+syntax = "proto3";
+package athletelabs.core.core;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/athlete-labs/core/x/core/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
